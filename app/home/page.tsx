@@ -194,13 +194,13 @@ const HomePage = () => {
             data-aos-delay="400"
           >
             {clienttestiomialData.map((data, index) => (
-              <div className="mt-10 md:mt-0">
+              <div className="mt-10 md:mt-0"   key={index}>
 
               <ClientTestiomialCard
                 image={data.image}
                 name={data.name}
                 review={data.review}
-                key={index}
+              
                 />
                 </div>
             ))}
