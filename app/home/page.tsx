@@ -56,7 +56,7 @@ const HomePage = () => {
       <div
         data-aos="fade-up"
         data-aos-delay="600"
-        className="absolute mx-auto w-[90%] md:w-[1400px] md:h-[130px] h-[500px] bg-white  md:flex justify-center items-center -bottom-[350px] md:bottom-10 left-0 right-0 shadow-md"
+        className="absolute mx-auto w-[90%] md:w-[1400px] md:h-[130px] h-[500px] bg-white  md:flex justify-center items-center -bottom-80 md:bottom-10 left-0 right-0 shadow-md"
       >
         {featuredData.map((data, index) => (
           <div className="flex items-center gap-5 m-8" key={index}>
